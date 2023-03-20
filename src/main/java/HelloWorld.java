@@ -1,6 +1,9 @@
+import type.EmployeeModified;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class HelloWorld {
 
@@ -20,32 +23,48 @@ public class HelloWorld {
         System.out.println("Run ended");
 
         String myString = "blah " + "blah2 " + "blah3";
-
+        String teststr = "40|50|60";
         boolean b = false;
-        Occurrence instance = new Occurrence();
 
 
         HelloWorld hello = new HelloWorld();
-        hello.testMain("1","2",3,4,false);
+        hello.testMain("1",
+                       "2",
+                       3,
+                       4,
+                       false);
 
-        hello.branch1Method("1", "2");
+        hello.branch1Method("1",
+                            "2");
 
-        NewThread t1 = new NewThread();
-        t1.setName("MyThread-1");
-        NewThread t2 = new NewThread();
-        t2.setName("MyThread-2");
-        t1.start();
-        t2.start();
+
+        var var = new EmployeeModified();
+
+        /*listOf("clean",
+                "assemble",
+                "test",
+                "publish",
+                "publishJarPublicationToArtifactoryRepository",
+                "jib",
+                "rollout"
+        ).forEach { name ->
+                (tasks.findByName(name) ?: tasks.create(name)).apply {
+                    dependsOn(gradle.includeBuilds.mapNotUtil { it.taskOrNull(":$name") })
+        }*/
     }
-//here also changes
+
+    private static void listOf(String... s) {
+    }
+
+    //here also changes
     public void testFile() {
         File file1 = new File("C:\\Temp\\test");
         File[] files = file1.listFiles(file -> file.isDirectory() && file.getName().compareTo("20221212") <= 0);
 
-        if(files == null || files.length ==0) {
+        if (files == null || files.length == 0) {
             return;
         }
-        for(File file : files) {
+        for (File file : files) {
             System.out.println(file);
         }
 
@@ -63,6 +82,14 @@ public class HelloWorld {
     public String branch1Method(String parameter1,
                                 String parameter2) {
         String text = "This is some text in Branch1 method";
-        return text;
+
+
+        Map<String, String> testMap = Map.of("testKey1",
+                                             "testValue1",
+                                             "testKey2",
+                                             "testValue2",
+                                             "testKey3",
+                                             "testValue3");
+        return "";
     }
 }

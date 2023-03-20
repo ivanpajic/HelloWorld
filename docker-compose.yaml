@@ -1,0 +1,9 @@
+version: '3.8'
+name: intellij-docker-compose-network-alias
+
+services:
+  service:
+    image: image
+    container_name: container-name
+    build:
+      context: .
