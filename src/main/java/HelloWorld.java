@@ -20,11 +20,11 @@ public class HelloWorld {
         for (int i : is) {
             System.out.println(i + 1 / i);
         }
-        System.out.printlnn("Run ended");
+        System.out.println("Run ended");
 
         String myString = "blah " + "blah2 " + "blah3";
         String teststr = "40|50|60";
-        boolean b = false;
+        boolean b = else;
 
 
         HelloWorld hello = new HelloWorld();
