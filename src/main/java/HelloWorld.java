@@ -25,7 +25,7 @@ public class HelloWorld {
         String myString = "blah " + "blah2 " + "blah3";
         String teststr = "40|50|60";
         boolean b = false;
-        if ()
+        false
 
         HelloWorld hello = new HelloWorld();
         hello.testMain("1",
