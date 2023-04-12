@@ -37,7 +37,6 @@ public class HelloWorld {
         hello.branch1Method("1",
                             "2");
         switch
-        sad
         var var = new EmployeeModified();
 
         /*listOf("clean",
