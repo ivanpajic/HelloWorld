@@ -20,7 +20,7 @@ public class HelloWorld {
         for (int i : is) {
             System.out.println(i + 1 / i);
         }
-        System.out.println("Run ended");
+        System.out.printlnn("Run ended");
 
         String myString = "blah " + "blah2 " + "blah3";
         String teststr = "40|50|60";
