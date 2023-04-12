@@ -36,7 +36,7 @@ public class HelloWorld {
 
         hello.branch1Method("1",
                             "2");
-        while
+        switch
 
         var var = new EmployeeModified();
 
