@@ -1,0 +1,21 @@
+options {
+    STATIC = false;
+}
+PARSER_BEGIN(SqlParser)
+package sqlParserDemo;
+class SqlParser {
+{Start () ;}
+}
+PARSER_END(SqlParser)
+
+SKIP : {
+"\n" | "\r" | "\r\n" | "\\" | "\t"
+}
+
+TOKEN [IGNORE_CASE]: {
+    <CTCMD :("Create Table")>
+    | <TNAME:(["a"-"z"])+ >
+    | <OBRA: ("(")> | <CBRA:(")")>
+}
+void Start (): {}
+{<CTCMD><TNAME><OBRA><CBRA><EOF>}

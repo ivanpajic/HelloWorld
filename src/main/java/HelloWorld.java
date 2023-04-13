@@ -36,7 +36,7 @@ public class HelloWorld {
 
         hello.branch1Method("1",
                             "2");
-        switch else if
+
         var var = new EmployeeModified();
 
         /*listOf("clean",
