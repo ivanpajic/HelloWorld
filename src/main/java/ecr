@@ -1,0 +1,7 @@
+function resize_action_box(new_size){
+        $('#article_action')
+            .removeClass('col-log-' + action_size);
+        action_size = new_size
+        $('#article_action')
+            .addClass('col-lg-' + action_size);
+    }
