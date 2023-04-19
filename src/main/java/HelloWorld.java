@@ -9,7 +9,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        //do not do anything that would case a problem
+        //lets make another merge conflict
         List<String> helloWorld = new ArrayList<>();
         helloWorld.add("Hello, World!");
         System.out.println(helloWorld.get(0));
