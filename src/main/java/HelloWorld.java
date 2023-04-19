@@ -9,7 +9,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        //make a merge conflict
+        //do not do anything that would case a problem
         List<String> helloWorld = new ArrayList<>();
         helloWorld.add("Hello, World!");
         System.out.println(helloWorld.get(0));
@@ -23,7 +23,7 @@ public class HelloWorld {
             System.out.println(i + 1 / i);
         }
         System.out.println("Run ended");
-        String reusability = "reusability";
+
         String myString = "blah " + "blah2 " + "blah3";
         String teststr = "40|50|60";
         boolean b = false;
