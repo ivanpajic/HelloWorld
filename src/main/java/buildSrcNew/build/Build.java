@@ -8,5 +8,4 @@ public class Build {
         this.build = "build";
     }
 
-    change
 }
