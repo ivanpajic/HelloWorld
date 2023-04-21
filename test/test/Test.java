@@ -1,4 +1,4 @@
-package test;
+
 
 public class Test {
 
@@ -6,6 +6,6 @@ public class Test {
 
     public Test() {
         this.test = "test";
-        
+        //change in test
     }
 }
