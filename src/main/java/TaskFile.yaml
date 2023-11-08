@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  default:
+    cmds:
+      - for: ['foo.txt', 'bar.txt']
+        cmd: cat {{ .ITEM }}

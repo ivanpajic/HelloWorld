@@ -1,0 +1,15 @@
+{
+  "title": "Taskfile YAML Schema",
+  "description": "Schema for Taskfile files.",
+  "definitions": {
+    "3": {
+      "env": {
+        "$ref": "#/definitions/3/vars"
+      }
+    }
+  },
+  "swagger": "2.0",
+  "info": {},
+  "paths": {}
+}
+
