@@ -17,8 +17,6 @@ public class HelloWorld {
         String helloWorld2;
         helloWorld2 = helloWorld.get(0);
         helloWorld2 = helloWorld2 + " again.";
-        String nullPointer = null;
-        System.out.println(nullPointer.length());
         helloWorld.add(helloWorld2);
         Double num = 2.2;
         System.out.println(helloWorld.get(1));
@@ -27,14 +25,15 @@ public class HelloWorld {
             System.out.println(i + 1 / i);
         }
         // this is the new change after the newBranch changes were introduced
+
+        //change on test branch2
+        System.out.println("test branch2");
         System.out.println("Run ended");
         String reusability = "usability";
         String myString = "blah blah2 blah3";
         String teststr = "40|50|60";
         boolean b = false;
-        for(i=0; i++; i<10) {
 
-        }
 //add a change
         HelloWorld hello = new HelloWorld();
 
