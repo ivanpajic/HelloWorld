@@ -34,7 +34,7 @@ public class HelloWorld {
         String teststr = "40|50|60";
         boolean b = false;
 
-//add a change
+        //add a change
         HelloWorld hello = new HelloWorld();
 
         hello.testMain("1",
@@ -48,17 +48,9 @@ public class HelloWorld {
 
         var var = new EmployeeModified();
 
-        /*listOf("clean",
-                "assemble",
-                "test",
-                "publish",
-                "publishJarPublicationToArtifactoryRepository",
-                "jib",
-                "rollout"
-        ).forEach { name ->
-                (tasks.findByName(name) ?: tasks.create(name)).apply {
-                    dependsOn(gradle.includeBuilds.mapNotUtil { it.taskOrNull(":$name") })
-        }*/
+        //print statement
+        System.out.println("This is a new print statement");
+
     }
 
     private static void method_with_underscores_in_name() {
@@ -79,6 +71,7 @@ public class HelloWorld {
         for (File file : files) {
             System.out.println(file);
         }
+        _Dummy_.__Array__<String> array = new _Dummy_.__Array__<>(helloWorld.toArray(new String[0]));
 
     }
 
@@ -91,6 +84,13 @@ public class HelloWorld {
         System.out.println("Test me!");
     }
 
+    /**
+     * This method is the branch1Method of the HelloWorld class.
+     *
+     * @param parameter1 The first parameter for the method.
+     * @param parameter2 The second parameter for the method.
+     * @return A String value.
+     */
     public String branch1Method(String parameter1,
                                 String parameter2) {
         String text = "This is some text in Branch1 method";
@@ -104,4 +104,4 @@ public class HelloWorld {
                 "testValue3");
         return "";
     }
-}//no new line at the end of the file save, new line added automatically
+}
