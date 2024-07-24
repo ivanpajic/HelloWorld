@@ -11,4 +11,13 @@ public class FirstElementTest {
 
     }
 
+    @Test
+    void testIntegerOneEqualsIntegerTwo() {
+
+        @Test
+        void testIntegerOneEqualsIntegerTwo () {
+            Integer expectedInt = 2;
+            org.assertj.core.api.Assertions.assertThat(1).isEqualTo(expectedInt);
+        }
+    }
 }
