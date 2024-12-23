@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="ALTERNATIVE_JRE_PATH" value="corretto-17 (2)" />
+  <configuration default="false" name="HelloWorldRun" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="HelloWorld" />
     <module name="HelloWorld" />
+    <option name="PROGRAM_PARAMETERS" value="$MODULE_DIR$" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

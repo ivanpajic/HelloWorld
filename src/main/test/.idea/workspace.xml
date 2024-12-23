@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="979f81d9-314b-4245-9e8a-3353d9fbb49a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../dir1/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/EnvVarsFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/buildSrc/build/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/buildSrc/build/TreeNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/buildSrcNew/src/origin/JSONOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/buildSrcNew/src/origin/TestColorScheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/buildSrcNew/src/origin/player.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/test1.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/test2.ini.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/test4.ini.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/test5.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/test_orig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/test_reformatted.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/scripts/weird.ini.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/server/test.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/server/test1.ini.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/server/test3.ini.dev.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/tooooo/looooong/fiilleeeeee/paaaaaath/foooooor/packaaaaageeeeee/VeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrryyyyyyyyyyyyyyyyyyyyyyyyyyyLooooooooooooooooooooooooooooongClaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssNaaaaameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/util/test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/runConfigurations/HelloWorld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../markdown.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/NewThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/buildSrc/build/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/buildSrc/build/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/server/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/server/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/type/EmployeeModified.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/type/EmployeeModified.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/type/test-API.http" beforeDir="false" afterPath="$PROJECT_DIR$/../java/type/test-API.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/java/FirstElementTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2j0PAEhGRmRGOhuJWY4opRFAEnq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/JetBrains/Workspace/Java/HelloWorld/src/main/test",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.19299" />
+        <option value="bundled-js-predefined-d6986cc7102b-eef0733dfcaf-JavaScript-IU-242.19299" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="979f81d9-314b-4245-9e8a-3353d9fbb49a" name="Changes" comment="" />
+      <created>1720520875436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720520875436</updated>
+      <workItem from="1720520877050" duration="10000" />
+    </task>
+    <servers />
+  </component>
+</project>

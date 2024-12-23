@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6a3d2f73-216b-4eb1-8d18-89b285ab538d" name="test">
+        <fileTransfer mountedRoot="C:\JetBrains\Workspace" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
