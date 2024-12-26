@@ -16,7 +16,7 @@ public class Main {
         printNumbers(12);
     }
 
-    private static void printNumbersUpTo100 {
+    private static void printNumbersUpTo100() {
         printNumbers(100);
     }
 
@@ -36,3 +36,5 @@ public class Main {
         System.out.println(x);
     }
 }
+
+// edit right tab
