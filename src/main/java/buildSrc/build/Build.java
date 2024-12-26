@@ -2,12 +2,26 @@ package buildSrc.build;
 
 public class Build {
 
-    String build;
+    private String buildVersion;
 
     public Build() {
-
-        this.build = "build";
+        this("build #000");
     }
-    // new change in Build.java
+
+        this.buildVersion = buildVersion;
+
+    }
+
+    public Build(String buildVersion) {
+        this.buildVersion = buildVersion;
+    }
+
+    public String getBuildVersion() {
+        return buildVersion;
+    }
+
+    public void setBuildVersion(String buildVersion) {
+        this.buildVersion = buildVersion;
+    }
 
 }
