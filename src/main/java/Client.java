@@ -17,6 +17,7 @@ public class Client {
     }
 
     public boolean isValidIdentification() {
+        System.out.println(identification);
         return identification != null && !identification.isEmpty();
     }
 
