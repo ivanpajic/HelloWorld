@@ -1,4 +1,8 @@
+/**
+ * Represents a client with an identification attribute.
+ */
 public class Client {
+
     private String identification;
 
     public Client(String identification) {
