@@ -1,3 +1,7 @@
+/**
+ * Represents a client with an identification value.
+ * This class provides functionalities to get, set, and validate the identification.
+ */
 public class Client {
     private String identification;
 
