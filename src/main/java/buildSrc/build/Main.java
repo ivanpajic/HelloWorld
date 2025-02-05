@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
         printNumbers(10);
         printNumbers(10);
-        printNumbers();
-        printNumbers();
+
     }
 
     /**
