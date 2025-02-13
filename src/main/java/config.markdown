@@ -1,1 +1,1 @@
-[text](../src/HelloWorld.java)
+[text](../src/pack.HelloWorld.java)
