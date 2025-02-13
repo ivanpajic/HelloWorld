@@ -26,6 +26,7 @@ public class HelloWorld {
         for (int i : is) {
             System.out.println(i + 1 / i);
         }
+        // change 3 for 123-feature
         // this is the new change after the newBranch changes were introduced
         System.out.println("Run ended");
         String reusability = "usability";

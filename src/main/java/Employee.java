@@ -7,7 +7,7 @@ public class Employee {
         this.name = name;
         this.hourlyRate = hourlyRate;
     }
-
+// change for 123-feature
     public void setHoursWorked(int hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
