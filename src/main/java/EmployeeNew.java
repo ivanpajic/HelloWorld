@@ -1,10 +1,11 @@
-public class Employee {
+public class EmployeeNew {
     private String name;
     private double hourlyRate;
     private int hoursWorked;
 
-    public Employee(String name, double hourlyRate) {
+    public EmployeeNew(String name, double hourlyRate) {
         this.name = name;
+        this.hourlyRate = hourlyRate;
         this.hourlyRate = hourlyRate;
     }
 
@@ -13,6 +14,6 @@ public class Employee {
     }
 
     public double calculateSalary() {
-        return hourlyRate * hoursWorked;
+        return hourlyRate * hoursWorked + 1;
     }
 }
