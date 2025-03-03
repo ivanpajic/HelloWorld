@@ -1,0 +1,3 @@
+[submodule "subtree/submodule1"]
+	path = subtree/submodule1
+	url = git@github.com:ivanpajic/Submodule1.git
