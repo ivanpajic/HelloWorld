@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -16,7 +17,10 @@ public class HelloWorld {
         String helloWorld2;
         helloWorld2 = helloWorld.get(0);
         helloWorld2 = helloWorld2 + " again.";
+        String nullPointer = null;
+        System.out.println(nullPointer.length());
         helloWorld.add(helloWorld2);
+        Double num = 2.2;
         System.out.println(helloWorld.get(1));
         int[] is = {1, 2, 3};
         for (int i : is) {
@@ -24,20 +28,24 @@ public class HelloWorld {
         }
         // this is the new change after the newBranch changes were introduced
         System.out.println("Run ended");
-        String reusability = "reusability";
-        String myString = "blah " + "blah2 " + "blah3";
+        String reusability = "usability";
+        String myString = "blah blah2 blah3";
         String teststr = "40|50|60";
         boolean b = false;
+        for(i=0; i++; i<10) {
 
+        }
+//add a change
         HelloWorld hello = new HelloWorld();
+
         hello.testMain("1",
-                       "2",
-                       3,
-                       4,
-                       false);
+                "2",
+                3,
+                4,
+                false);
 
         hello.branch1Method("1",
-                            "2");
+                "2");
 
         var var = new EmployeeModified();
 
@@ -52,6 +60,10 @@ public class HelloWorld {
                 (tasks.findByName(name) ?: tasks.create(name)).apply {
                     dependsOn(gradle.includeBuilds.mapNotUtil { it.taskOrNull(":$name") })
         }*/
+    }
+
+    private static void method_with_underscores_in_name() {
+        System.out.println("Test");
     }
 
     private static void listOf(String... s) {
@@ -86,11 +98,11 @@ public class HelloWorld {
 
 
         Map<String, String> testMap = Map.of("testKey1",
-                                             "testValue1",
-                                             "testKey2",
-                                             "testValue2",
-                                             "testKey3",
-                                             "testValue3");
+                "testValue1",
+                "testKey2",
+                "testValue2",
+                "testKey3",
+                "testValue3");
         return "";
     }
-}
+}//no new line at the end of the file save, new line added automatically
