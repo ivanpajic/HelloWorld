@@ -11,9 +11,7 @@ public class Build {
         this.buildVersion = buildVersion;
 
     }
-// change in DEF branch new change
-// new feature developed on DEF branch
-// bugfix done on main branch
+// change in build on main branch
     public Build(String buildVersion) {
         this.buildVersion = buildVersion;
     }
