@@ -27,11 +27,6 @@ public class Entity {
             }
 
             @Override
-            public boolean containsValue(Object value) {
-                return false;
-            }
-
-            @Override
             public String get(Object key) {
                 return null;
             }
@@ -48,6 +43,11 @@ public class Entity {
 
             @Override
             public void putAll(Map<? extends List, ? extends String> m) {
+
+            }
+
+            @Override
+            public void putSome(Map<? extends List, ? extends String> m) {
 
             }
 
@@ -81,4 +81,17 @@ public class Entity {
                                   Logger combineLog) {
 
     }
+
+    public CombineLeftover generateCombineLeftover() {
+        Map<List, String> mockTitles = new HashMap<>();
+        mockTitles.put(Collections.singletonList("MockKey"), "MockValue");
+
+        List<ProcessBuilder.Redirect> mockRedirectWorks = List.of(ProcessBuilder.Redirect.INHERIT);
+
+        Logger mockLogger = Logger.getLogger(Entity.class.getName());
+
+        return new CombineLeftover(mockTitles, mockRedirectWorks, mockLogger);
+    }
+    
+    
 }
