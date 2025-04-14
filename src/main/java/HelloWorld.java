@@ -32,9 +32,8 @@ public class HelloWorld {
         String myString = "blah blah2 blah3";
         String teststr = "40|50|60";
         boolean b = false;
-        for(i=0; i++; i<10) {
 
-        }
+        method_with_underscores_in_name();
 //add a change
         HelloWorld hello = new HelloWorld();
 
@@ -55,7 +54,6 @@ public class HelloWorld {
                 "publish",
                 "publishJarPublicationToArtifactoryRepository",
                 "jib",
-                "rollout"
         ).forEach { name ->
                 (tasks.findByName(name) ?: tasks.create(name)).apply {
                     dependsOn(gradle.includeBuilds.mapNotUtil { it.taskOrNull(":$name") })
@@ -79,6 +77,7 @@ public class HelloWorld {
         }
         for (File file : files) {
             System.out.println(file);
+            System.out.println(file.getName());
         }
 
     }
@@ -90,11 +89,26 @@ public class HelloWorld {
                          boolean input5) {
 
         System.out.println("Test me!");
+        System.out.println("Test again!");
     }
 
     public String branch1Method(String parameter1,
                                 String parameter2) {
         String text = "This is some text in Branch1 method";
+
+
+        Map<String, String> testMap = Map.of("testKey1",
+                "testValue1",
+                "testKey2",
+                "testValue2",
+                "testKey3",
+                "testValue3");
+        return "";
+    }
+
+    public String branch2Method(String parameter1,
+                                String parameter2) {
+        String text = "This is some text in Branch2 method";
 
 
         Map<String, String> testMap = Map.of("testKey1",
