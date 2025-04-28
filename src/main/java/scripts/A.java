@@ -5,11 +5,12 @@ public class A {
         class Local {
             void bar() {
                 Runnable runnable = () -> {
-                    getPrintln();// extract method on this statement
+                    this.getPrintln(); // extract method on this statement
                 };
             }
 // change
-            private static void getPrintln() {
+            private void getPrintln() {
+                System.out.println("USER REQUEST: test changes");
             }
         }
     }
