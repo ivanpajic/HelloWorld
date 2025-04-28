@@ -8,7 +8,7 @@ public class A {
                     getPrintln();// extract method on this statement
                 };
             }
-
+// change
             private static void getPrintln() {
             }
         }
