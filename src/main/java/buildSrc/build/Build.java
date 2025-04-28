@@ -9,7 +9,8 @@ public class Build {
     }
 
         this.buildVersion = buildVersion;
-
+// change 1
+    //change 3
     }
 
 // change in DEF branch new change
@@ -26,5 +27,5 @@ public class Build {
     public void setBuildVersion(String buildVersion) {
         this.buildVersion = buildVersion;
     }
-
+// change 2
 }
