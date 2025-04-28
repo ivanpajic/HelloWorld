@@ -25,6 +25,13 @@ public class ClientIdentification {
         return "Client{" + "identification='" + identification + '\'' + '}';
     }
 // change
+
+    public static void main(String[] args) {
+        ClientIdentification client = new ClientIdentification("TestID");
+        int result = client.calculateAddition(5, 3);
+        System.out.println("Addition result (5 + 3): " + result); // Expected output: 8
+    }
+    
     public int calculateAddition(int a, int b) {
         return a + b;
     }
