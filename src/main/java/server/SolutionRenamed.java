@@ -10,7 +10,7 @@ public class SolutionRenamed {
         int a = Integer.parseInt(reader.readLine());
 // change
         if (a > 0) {
-            a = a * 2;
+            a = a * 2 + 10;
         } else if (a < 0) {
             a = a + 1;
         }
