@@ -14,11 +14,12 @@ public class Main {
      */
     private static void printNumbers() {
         printNumbers(12);
+        printNumbers(11);
+        
     }
 
-    private static void printNumbersUpTo100 {
-        printNumbers(100);
-    }
+
+
 
     /**
      * Prints numbers from 1 to the specified maximum number
@@ -28,6 +29,7 @@ public class Main {
     private static void printNumbers(int max) {
         for(int i = 1; i <= max; i++) {
 
+            System.out.println();
             System.out.println("i = " + i);
         }
     }
