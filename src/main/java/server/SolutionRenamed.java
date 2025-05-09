@@ -10,7 +10,7 @@ public class SolutionRenamed {
         int a = Integer.parseInt(reader.readLine());
 // change
         if (a > 0) {
-            a = a * 1 - 43;
+            a = a * 1 - 12;
         } else if (a < 0) {
             a = a + 1;
         }
