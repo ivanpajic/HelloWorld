@@ -10,7 +10,7 @@ public class Solution {
         int a = Integer.parseInt(reader.readLine());
 
         if (a > 0) {
-            a = a * 1 - 28;
+            a = a * 1 - 43;
         } else if (a < 0) {
             a = a + 1;
         }
