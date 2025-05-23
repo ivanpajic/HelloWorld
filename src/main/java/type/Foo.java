@@ -14,7 +14,7 @@ public class Foo {
             }
             bazz();
         }
-        return a;
+        return a; //change again
     }
 
     private void bazz() {
