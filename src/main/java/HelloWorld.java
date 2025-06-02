@@ -18,7 +18,6 @@ public class HelloWorld {
         helloWorld2 = helloWorld.get(0);
         helloWorld2 = helloWorld2 + " again.";
         String nullPointer = null;
-        //change
         System.out.println(nullPointer.length());
         helloWorld.add(helloWorld2);
         Double num = 2.2;
@@ -34,7 +33,7 @@ public class HelloWorld {
         String teststr = "40|50|60";
         boolean b = false;
         for(i=0; i++; i<10) {
-            // new change
+            // this is the
         }
 //add a change
         HelloWorld hello = new HelloWorld();
@@ -50,7 +49,17 @@ public class HelloWorld {
 
         var var = new EmployeeModified();
 
-
+        /*listOf("clean",
+                "assemble",
+                "test",
+                "publish",
+                "publishJarPublicationToArtifactoryRepository",
+                "jib",
+                "rollout"
+        ).forEach { name ->
+                (tasks.findByName(name) ?: tasks.create(name)).apply {
+                    dependsOn(gradle.includeBuilds.mapNotUtil { it.taskOrNull(":$name") })
+        }*/
     }
 
     private static void method_with_underscores_in_name() {
