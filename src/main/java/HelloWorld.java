@@ -33,7 +33,7 @@ public class HelloWorld {
         String teststr = "40|50|60";
         boolean b = false;
         for(i=0; i++; i<10) {
-            // This is the change
+            // This is the change that conflicts
         }
 //add a change
         HelloWorld hello = new HelloWorld();
