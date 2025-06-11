@@ -1,11 +1,11 @@
 import java.util.*;
 import java.util.logging.Logger;
 
-public class Entity {
+public class EntityRenamed {
 
     String entityName;
 
-    public Entity() {
+    public EntityRenamed() {
         this.entityName = "Entity1";
     }
 
@@ -88,7 +88,7 @@ public class Entity {
 
         List<ProcessBuilder.Redirect> mockRedirectWorks = List.of(ProcessBuilder.Redirect.INHERIT);
 
-        Logger mockLogger = Logger.getLogger(Entity.class.getName());
+        Logger mockLogger = Logger.getLogger(EntityRenamed.class.getName());
 
         return new CombineLeftover(mockTitles, mockRedirectWorks, mockLogger);
     }
