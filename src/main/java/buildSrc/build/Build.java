@@ -3,7 +3,7 @@ package buildSrc.build;
 public class Build {
 
     private String buildVersion;
-
+// change
     public Build() {
         this("build #000");
     }
@@ -11,9 +11,7 @@ public class Build {
         this.buildVersion = buildVersion;
 
     }
-// change in DEF branch new change
-// new feature developed on DEF branch
-// bugfix done on main branch
+// change in build on main branch
     public Build(String buildVersion) {
         this.buildVersion = buildVersion;
     }
