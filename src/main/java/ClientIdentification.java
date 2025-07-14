@@ -1,7 +1,7 @@
-public class ClientIdentification {
+public class Client {
     private String identification;
 
-    public ClientIdentification(String identification) {
+    public Client(String identification) {
         this.identification = identification;
     }
 
@@ -24,10 +24,8 @@ public class ClientIdentification {
     public String toString() {
         return "Client{" + "identification='" + identification + '\'' + '}';
     }
+// change
 
-    public int calculateAddition(int a, int b) {
-        return a + b;
-    }
 
 
 }
