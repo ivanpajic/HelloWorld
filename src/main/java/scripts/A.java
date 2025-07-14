@@ -8,10 +8,11 @@ public class A {
                     this.getPrintln(); // extract method on this statement
                 };
             }
-// change
+
             private void getPrintln() {
-                System.out.println("USER REQUEST: test changes");
+                    System.out.println("USER REQUEST: test changes");
             }
+            // line added in the IntroduceChange line
         }
     }
 }
