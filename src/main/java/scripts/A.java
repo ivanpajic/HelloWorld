@@ -10,6 +10,7 @@ public class A {
             }
 
             private static void getPrintln() {
+                // line added on the BetaBranch
             }
         }
     }
