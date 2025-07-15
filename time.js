@@ -8,8 +8,7 @@ function printFancyTime() {
 
     // Use emojis and custom formatting
     const fancyTime = `⏰ ${hours} 🕒 ${minutes} 🕒 ${seconds}`;
-    console.log(fancyTime);
 }
-
-// Call the function every second to display updated time
+// line modified
 setInterval(printFancyTime, 1000);
+ // new line added
