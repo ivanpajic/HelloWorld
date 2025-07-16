@@ -12,7 +12,7 @@ public class A {
             private static void getPrintln() {
                 // line added on the BetaBranch
             }
-            // line added in the IntroduceChange line change
+            // line added in
         }
     }
 }
