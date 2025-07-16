@@ -12,7 +12,7 @@ public class A {
             private static void getPrintln() {
                 // line added on the BetaBranch
             }
-            // line added in
+            // line added in new change to conflict
         }
     }
 }
