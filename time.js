@@ -12,4 +12,4 @@ function printFancyTime() {
 }
 
 // Call the function every second to display updated time
-setInterval(printFancyTime, 1000);
+setInterval(printFancyTime, 10000);
