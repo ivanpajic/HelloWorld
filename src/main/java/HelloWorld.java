@@ -46,7 +46,7 @@ public class HelloWorld {
 
         hello.branch1Method("1",
                 "2");
-// change on remote
+// change from remote repo
         var var = new EmployeeModified();
 
         /*listOf("clean",
