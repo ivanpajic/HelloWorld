@@ -11,7 +11,7 @@ public class Employee {
     public void setHoursWorked(int hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
-
+// change on remote
     public double calculateSalary() {
         return hourlyRate * hoursWorked;
     }
