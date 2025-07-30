@@ -16,6 +16,7 @@ public class Client {
         this.identification = identification;
     }
 
+    // change on BetaBranch
     public boolean isValidIdentification() {
         return identification != null && !identification.isEmpty();
     }
