@@ -1,5 +1,5 @@
 public class EmployeeNew {
-    private String name;
+    private final String name;
     private double hourlyRate;
     private int hoursWorked;
 
@@ -9,6 +9,7 @@ public class EmployeeNew {
         this.hourlyRate = hourlyRate;
     }
 
+    // change on NewBranchFromBetaBranch
     public void setHoursWorked(int hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
