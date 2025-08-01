@@ -7,7 +7,7 @@ import java.util.Map;
 
 
 public class HelloWorld {
-
+    // change
     public static void main(String[] args) {
 
         //lets make another merge conflict
@@ -74,7 +74,7 @@ public class HelloWorld {
         File file1 = new File("C:\\Temp\\test");
         File[] files = file1.listFiles(file -> file.isDirectory() && file.getName().compareTo("20221212") <= 0);
 
-        if (files == null || files.length == 0) {
+        if (files == null) {
             return;
         }
         for (File file : files) {
