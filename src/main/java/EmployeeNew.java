@@ -10,6 +10,7 @@ public class EmployeeNew {
     }
 
     // change
+    // change
     public void setHoursWorked(int hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
