@@ -16,6 +16,7 @@ public class EntityRenamed {
                 return 0;
             }
 
+            // change
             @Override
             public boolean isEmpty() {
                 return false;
