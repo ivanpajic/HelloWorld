@@ -11,6 +11,6 @@ public class A {
 //change
             private static void getPrintln() {
             }
-        }
+        }//change
     }
 }
