@@ -1,6 +1,6 @@
 package type;
 
-public interface A {
+public interface Arenamed {
     int foo();
 
     void baz();

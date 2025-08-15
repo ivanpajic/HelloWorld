@@ -1,3 +1,9 @@
-[submodule "subtree/submodule1"]
-	path = subtree/submodule1
+[submodule "Submodule1"]
+	path = Submodule1
 	url = git@github.com:ivanpajic/Submodule1.git
+[submodule "Submodule2"]
+	path = Submodule2
+	url = git@github.com:ivanpajic/Submodule2.git
+[submodule "GitPracticeRepo"]
+	path = GitPracticeRepo
+	url = git@github.com:ivanpajic/GitPracticeRepo.git
