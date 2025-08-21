@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="MessagesSorter"
+         basedir="..">
+
+    <description>
+        Sorts message properties files.
+    </description>
+
+    <!-- Path to the property sorter jar -->
+    <property name="project.dir"
+              location="${basedir}/.."/>
+    <property name="sorter.jar"
+              location="${project.dir}/tools/PropertyFileSorter/property-file-sorter-1.0.1.jar"/>
+
+    <macrodef name="sort-properties">
+        <attribute name="properties-dir"/>
+        <sequential>
+            <!-- Execute sort jar -->
+            <java jar="${sorter.jar}"
+                  fork="true"
+                  dir="@{properties-dir}">
+                <arg value="messages_de.properties"/>
+                <arg value="messages_en.properties"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <!-- Define target for message properties -->
+    <target name="_project" description="Sort message properties">
+        <sort-properties
+                properties-dir="${project.dir}/main/WEB-Module/src/main/resources/redacted/redacted/redacted/web/i18n/"/>
+    </target>
+
+</project>
