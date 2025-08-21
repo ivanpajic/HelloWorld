@@ -12,7 +12,7 @@
               location="${basedir}/.."/>
     <property name="sorter.jar"
               location="${project.dir}/tools/PropertyFileSorter/property-file-sorter-1.0.1.jar"/>
-
+// change
     <macrodef name="sort-properties">
         <attribute name="properties-dir"/>
         <sequential>
