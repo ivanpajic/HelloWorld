@@ -8,7 +8,7 @@ public class A {
                     getPrintln();// extract method on this statement
                 };
             }
-
+// change on line 11 on test branch
             private static void getPrintln() {
             }
         }
