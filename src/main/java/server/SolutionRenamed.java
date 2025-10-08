@@ -8,7 +8,18 @@ public class SolutionRenamed {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(reader.readLine());
-// change
+// changesss
+        // changesss
+        // changesss
+        // changesss
+        // changesss// changesss// changesss
+        // changesss
+        // changesss
+        // changesss
+        // changesss// changesss
+        // changesss
+        // changesss
+        // changesss
         if (a > 0) {
             a = a * 2;
         } else if (a < 0) {
