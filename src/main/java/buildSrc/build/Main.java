@@ -7,7 +7,7 @@ public class Main {
         printNumbers();
         printNumbers();
     }
-
+// change on main
     /**
      * Prints numbers from 1 to 12
      * Calls the printNumbers(int max) method with a maximum number of 10
