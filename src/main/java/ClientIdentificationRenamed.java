@@ -12,7 +12,7 @@ public class ClientIdentification {
         return identification;
     }
 
-    // change to pushsss
+    // change to push
     public void deleteIden
     public void setIdentification(String identification) {
         this.identification = identification;
