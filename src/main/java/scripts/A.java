@@ -8,8 +8,7 @@ public class A {
                     getPrintln();// extract method on this statement
                 };
             }
-
-            //change for a pull request
+//change
             private static void getPrintln() {
             }
         }//change
