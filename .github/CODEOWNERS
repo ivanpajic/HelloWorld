@@ -1,0 +1,14 @@
+    # This is a comment.
+    # Lines starting with '#' are ignored.
+
+    # Assign a default owner for all files in the repository
+    # * @octocat
+
+    # Assign an owner for all files in the 'src' directory
+    /src/ @paja24
+
+    # Assign an owner for a specific file
+    # /docs/README.md @monalisa
+
+    # Assign multiple owners for a pattern
+    # *.js @octocat @monalisa
