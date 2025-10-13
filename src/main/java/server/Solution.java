@@ -8,7 +8,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(reader.readLine());
-
+// change for pull request
         if (a > 0) {
             a = a * 2;
         } else if (a < 0) {
