@@ -1,0 +1,4 @@
+package buildSrc.build;
+
+public class QueryStructure {
+}

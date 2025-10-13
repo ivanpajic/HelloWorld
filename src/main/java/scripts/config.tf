@@ -7,7 +7,7 @@ resource "vault_kubernetes_auth_backend_config" "inv_dev" {
 
 resource "vault_auth_backend" "example" {
     type = "kubernetes"
-
+// changes
     tune {
         max_lease_ttl      = "90000s"
         listing_visibility = "unauth"

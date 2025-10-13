@@ -7,11 +7,11 @@ public class Employee {
         this.name = name;
         this.hourlyRate = hourlyRate;
     }
-
+// change from remote repo
     public void setHoursWorked(int hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
-
+// change on remote
     public double calculateSalary() {
         return hourlyRate * hoursWorked;
     }

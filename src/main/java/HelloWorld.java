@@ -25,7 +25,7 @@ public class HelloWorld {
         int[] is = {1, 2, 3};
         for (int i : is) {
             System.out.println(i + 1 / i);
-        }
+        }//changes
         // this is the new change after the newBranch changes were introduced
         System.out.println("Run ended");
         String reusability = "usability";
@@ -33,7 +33,7 @@ public class HelloWorld {
         String teststr = "40|50|60";
         boolean b = false;
         for(i=0; i++; i<10) {
-            // this is the
+            // This is the change that conflicts
         }
 //add a change
         HelloWorld hello = new HelloWorld();
@@ -46,7 +46,7 @@ public class HelloWorld {
 
         hello.branch1Method("1",
                 "2");
-
+// change from remote repo
         var var = new EmployeeModified();
 
         /*listOf("clean",
