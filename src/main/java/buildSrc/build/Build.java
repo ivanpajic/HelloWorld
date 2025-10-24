@@ -7,7 +7,7 @@ public class Build {
     public Build() {
         this("build #000");
     }
-
+// change on beta branch on remote
         this.buildVersion = buildVersion;
 // change 1
     //change 3
