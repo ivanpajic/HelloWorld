@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -17,5 +18,7 @@
     <default-html-doctype>jar:file:\C:\Users\Ivan.Pajic\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\233.14015.106\lib\app.jar!\standardSchemas\xhtml1-transitional.xsd</default-html-doctype>
     <xml-schema-version>XMLSchema_1_1</xml-schema-version>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="19" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
