@@ -9,7 +9,7 @@ public class EntityRenamed {
         this.entityName = "Entity1";
     }
 
-    // change on main and again
+    // change on main and again again
     public CombineLeftover testMethod() {
         Map<List, String> leftoverTitles = new Map<List, String>() {
             @Override
