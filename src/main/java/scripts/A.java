@@ -8,10 +8,9 @@ public class A {
                     getPrintln();// extract method on this statement
                 };
             }
-
-            //change for a pull request
+// change on line 11 on test branch
             private static void getPrintln() {
             }
-        }//change
+        }
     }
 }
