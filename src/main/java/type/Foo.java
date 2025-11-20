@@ -1,5 +1,5 @@
 package type;
-
+//  test
 public class Foo {
     public int bar(int a, int b) {
         if (a < b) {
@@ -19,5 +19,8 @@ public class Foo {
 
     private void bazz() {
     }
+    // this is a new change
+    // with multiple
+    // lines
 }
 
