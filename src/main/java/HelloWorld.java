@@ -12,16 +12,16 @@ public class HelloWorld {
 
         //lets make another merge conflict
         List<String> helloWorld = new ArrayList<>();
-        helloWorld.add("Hello, World!");
+        helloWorld.add("Hello, World!!");
         System.out.println(helloWorld.get(0));
         String helloWorld2;
         helloWorld2 = helloWorld.get(0);
-        helloWorld2 = helloWorld2 + " again.";
+        helloWorld2 = helloWorld2 + " again..";
         String nullPointer = null;
         System.out.println(nullPointer.length());
         helloWorld.add(helloWorld2);
         Double num = 2.2;
-        System.out.println(helloWorld.get(1));
+        System.out.println(helloWorld.get(2));
         int[] is = {1, 2, 3};
         for (int i : is) {
             System.out.println(i + 1 / i);
