@@ -10,7 +10,9 @@ public class A {
             }
 // change on line 11 on test branch
             private static void getPrintln() {
+                // line added on the BetaBranch
             }
+            // line added in new change to conflict
         }
     }
 }

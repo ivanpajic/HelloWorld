@@ -11,11 +11,11 @@ public class ClientIdentification {
 
         return identification;
     }
-// change in branch
+
     public void setIdentification(String identification) {
         this.identification = identification;
     }
-
+// change in remotebranch1
     public boolean isValidIdentification() {
         return identification != null && !identification.isEmpty();
     }

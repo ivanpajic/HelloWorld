@@ -1,4 +1,5 @@
 package type;
 
-public class IgnoredFile {
+public class IgnoredFile {]
+  //change
 }

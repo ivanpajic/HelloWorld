@@ -3,10 +3,10 @@
 split view
 
 
-| Development | Launches | Audio | A Notes | Last |
-|-------------|----------|-------|---------|------|
-| Optimizing  | ✅        |       |         |      |
-|             | ⚠️       |       |         |      |
-|             |          |       |         |      |
+| Development   | Launches | Audio | A Notes | Last        |
+|---------------|----------|-------|---------|-------------|
+| Performancing | ✅        |       |         |             |
+|               | ⚠️       |       |         |             |
+|               |          |       |         | Operational |
 
 
