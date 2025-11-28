@@ -1,4 +1,5 @@
 import type.EmployeeModified;
+import type.SupportFiles;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -32,9 +33,9 @@ public class HelloWorld {
         String myString = "blah blah2 blah3";
         String teststr = "40|50|60";
         boolean b = false;
-        for(i=0; i++; i<10) {
+        SupportFiles supportFiles = new SupportFiles();
+        boolean exists = supportFiles.fileExists("C:\\Temp\\test");
 
-        }
 //add a change
         HelloWorld hello = new HelloWorld();
 

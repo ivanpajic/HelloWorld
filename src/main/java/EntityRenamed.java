@@ -1,15 +1,14 @@
 import java.util.*;
 import java.util.logging.Logger;
 
-public class EntityRenamed {
+public class Entity {
 
     String entityName;
 
-    public EntityRenamed() {
+    public Entity() {
         this.entityName = "Entity1";
     }
 
-    // change on main and again again
     public CombineLeftover testMethod() {
         Map<List, String> leftoverTitles = new Map<List, String>() {
             @Override
@@ -17,7 +16,6 @@ public class EntityRenamed {
                 return 0;
             }
 
-            // change asd
             @Override
             public boolean isEmpty() {
                 return false;
@@ -42,7 +40,7 @@ public class EntityRenamed {
             public String remove(Object key) {
                 return null;
             }
-// this line was changed on remote
+
             @Override
             public void putAll(Map<? extends List, ? extends String> m) {
 
@@ -90,7 +88,7 @@ public class EntityRenamed {
 
         List<ProcessBuilder.Redirect> mockRedirectWorks = List.of(ProcessBuilder.Redirect.INHERIT);
 
-        Logger mockLogger = Logger.getLogger(EntityRenamed.class.getName());
+        Logger mockLogger = Logger.getLogger(Entity.class.getName());
 
         return new CombineLeftover(mockTitles, mockRedirectWorks, mockLogger);
     }
